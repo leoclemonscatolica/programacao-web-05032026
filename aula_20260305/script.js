@@ -47,7 +47,7 @@ if (idade >= 18) {
 
 var hora = 10;
 if (hora < 12) {
-    console.group("bom dia");
+    console.log("bom dia");
 } else if (hora < 18) {
     console.log("Boa Tarde");
 } else {
