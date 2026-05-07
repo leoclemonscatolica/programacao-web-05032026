@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
     res.writeHead(200, { 'Content-Type': 'text/plain' });
     
     // Envia a resposta "Hello, World!" para o cliente
-    res.end('Tu e gay');
+    res.end('Hello World!');
 });
 
 // Define a porta do servidor
